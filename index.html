@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+        <img src="bugger.png" alt="Menu" class="mobile-menu-icon">
+        <ul class="nav-links">
+            <li><a href="#" class="nav-item nav-home">Home</a></li>
+            <li><a href="#" class="nav-item nav-loans">Loans</a></li>
+            <li><a href="#" class="nav-item nav-business">Business management</a></li>
+            <li><a href="#" class="nav-item nav-help">Help center</a></li>
+        </ul>
+        <a href="#" class="login">Login</a>
+        <a href="#" class="signup-btn">Sign Up</a>
+    </nav>
+
+    <main class="help-hero">
+        <h1 class="help-title">Hi, we’re here to help.</h1>
+        <h2 class="help-subtitle">Frequently asked questions</h2>
+        <p class="ask-text">Ask us anything</p>
+        <div class="search-bar">
+            <img src="frame.png" alt="Search" class="search-icon">
+            <input type="text" placeholder="Search" class="search-input">
+        </div>
+        <div class="hero-divider"></div>
+        <div class="hero-nav-general">General</div>
+        <div class="hero-nav-loans">Loans</div>
+        <div class="hero-nav-line"></div>
+        <div class="hero-nav-wallet">Wallet</div>
+    </main>
+
+    <section class="main-content">
+        <!-- Lot 1 -->
+        <div class="faq-box lot-1">
+            <span class="faq-question">What is Lendha about?</span>
+            <img src="Icon.png" alt="icon" class="faq-icon">
+        </div>
+
+        <!-- Lot 2 -->
+        <div class="faq-box lot-2">
+            <span class="faq-question">How do I get a loan?</span>
+            <img src="icon.png" alt="icon" class="faq-icon">
+        </div>
+
+        <!-- Lot 3 -->
+        <div class="faq-box lot-3">
+            <span class="faq-question">How do i know i am eligible?</span>
+            <img src="icon.png" alt="icon" class="faq-icon">
+        </div>
+
+        <!-- Lot 4 -->
+        <div class="faq-box lot-4">
+            <span class="faq-question">What are your interest rate?</span>
+            <img src="icon.png" alt="icon" class="faq-icon">
+        </div>
+
+        <!-- Lot 5 -->
+        <div class="faq-box lot-5">
+            <span class="faq-question">Can I top-up loans?</span>
+            <img src="icon.png" alt="icon" class="faq-icon">
+        </div>
+
+        <!-- Lot 6 -->
+        <div class="faq-box lot-6">
+            <span class="faq-question">Is there a penalty for delayed loan repayment?</span>
+            <img src="icon.png" alt="icon" class="faq-icon icon-expanded">
+            <div class="faq-answer-container">
+                <p class="faq-answer">Yes, late repayment attracts a 0.5% increase on the loan per default.</p>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <p class="not-found-text">Didn’t get what you are looking for?</p>
+        <h2 class="reach-out-title">Reach out to us</h2>
+
+        <div class="contact-bg"></div>
+
+        <label class="form-label name-label">Name</label>
+        <input type="text" class="form-input name-input">
+
+        <label class="form-label email-label">Email address</label>
+        <input type="email" class="form-input email-input">
+
+        <label class="form-label message-label">Message</label>
+        <textarea class="form-textarea message-input"></textarea>
+
+        <div class="terms-group">
+            <input type="checkbox" id="terms" class="terms-checkbox">
+            <label for="terms" class="terms-text">
+                I have read and agree to Lendha’s <span class="terms-link">Terms and conditions</span> and <span class="terms-link">Privacy Policy</span>
+            </label>
+        </div>
+
+        <button type="submit" class="contact-submit-btn">Send message</button>
+
+        <img src="face.png" alt="Contact Illustration" class="contact-illustration">
+
+        <div class="footer-kes"></div>
+        <img src="logo.png" alt="Footer Logo" class="footer-logo">
+        <ul class="footer-nav">
+            <li class="footer-home"><a href="#" class="footer-nav-link">Home</a></li>
+            <li class="footer-loans"><a href="#" class="footer-nav-link">Loans</a></li>
+            <li class="footer-business"><a href="#" class="footer-nav-link">Business management</a></li>
+            <li class="footer-help"><a href="#" class="footer-nav-link">Help center</a></li>
+        </ul>
+        <ul class="footer-contacts">
+            <li class="footer-contact-info footer-email">info@lendha.com</li>
+            <li class="footer-contact-info footer-phone">+234 816 791 0608</li>
+            <li class="footer-contact-info footer-address">134 Bode Thomas Street, Surulere, Lagos State.</li>
+        </ul>
+        <a href="#" class="footer-terms">Terms and Privacy</a>
+        <ul class="footer-socials">
+            <li class="footer-social-item footer-icon-ret"><img src="ret.png" alt="Social" class="footer-social-icon"></li>
+            <li class="footer-social-item footer-icon-tres"><img src="tres.png" alt="Social" class="footer-social-icon"></li>
+            <li class="footer-social-item footer-icon-unto"><img src="unto.png" alt="Social" class="footer-social-icon"></li>
+            <li class="footer-social-item footer-icon-hes"><img src="hes.png" alt="Social" class="footer-social-icon"></li>
+        </ul>
+    </section>
+
+    <script>
+        const menuIcon = document.querySelector('.mobile-menu-icon');
+        const navbar = document.querySelector('.navbar');
+
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
