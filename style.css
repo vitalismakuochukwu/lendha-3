@@ -766,15 +766,13 @@ body {
 
   /* Footer Mobile */
   .footer-kes {
-    width: 100%;
+    width: 400px;
     height:auto;
-    min-height: 500px; 
-    padding-top:60px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-botton:20px;
+    height: 500px;
     box-sizing:border-box;
-    position:relative;
+    top:1720px;
+    left:0;
+    right:0;
     
   }
 
