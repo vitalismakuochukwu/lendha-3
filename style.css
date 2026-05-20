@@ -71,7 +71,7 @@ body {
 .login {
   position: absolute;
   top: 27px;
-  left: 1100px;
+  left: 1030px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -87,7 +87,7 @@ body {
   width: 141px;
   height: 43px;
   top: 18.5px;
-  left: 1196.92px;
+  left: 1130.00px;
   border-radius: 5px;
   background-color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
@@ -742,7 +742,7 @@ body {
   }
 
   .contact-illustration {
-    display: none; /* Hide large desktop image on mobile */
+    display: none; 
   }
 
   .form-label { left: 36px; }
@@ -766,10 +766,13 @@ body {
 
   /* Footer Mobile */
   .footer-kes {
-    width: 100%;
-    height: 500px; /* Taller background to cover stacked items */
-    top: 1720px;
-    left: 0;
+     width: 400px;
+    height:auto;
+    height: 500px;
+    box-sizing:border-box;
+    top:1720px;
+    left:0;
+    right:0;
   }
 
   .footer-logo {
@@ -831,7 +834,7 @@ body {
   }
 
   .navbar.active {
-    height: 60vh;
+        height: 60vh;
     padding-top: 80px;
     padding-bottom: 40px;
     display: flex;
