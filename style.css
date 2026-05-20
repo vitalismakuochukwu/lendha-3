@@ -770,6 +770,10 @@ body {
     height: 500px; /* Taller background to cover stacked items */
     top: 1720px;
     left: 0;
+    right:0;
+    box-sizing:border-box;
+    position:fixed;
+    
   }
 
   .footer-logo {
