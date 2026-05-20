@@ -832,7 +832,6 @@ body {
 
   .navbar.active {
     height: 100vh;
-    overflow -y:auto;
     padding-top: 80px;
     padding-bottom: 40px;
     display: flex;
@@ -843,7 +842,8 @@ body {
     position:fixed;
     top:0;
     left:0;
-    width:100vw;
+    width:100%;
+    box-sizing:border-box;
     right:0
   }
 
