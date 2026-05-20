@@ -831,7 +831,8 @@ body {
   }
 
   .navbar.active {
-    height: auto;
+    height: 100vh;
+    overflow -y:auto;
     padding-top: 80px;
     padding-bottom: 40px;
     display: flex;
@@ -839,6 +840,10 @@ body {
     align-items: center;
     background-color: #1A1F4C;
     z-index:999;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
   }
 
   .navbar.active .nav-links {
