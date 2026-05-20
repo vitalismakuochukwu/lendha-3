@@ -831,7 +831,7 @@ body {
   }
 
   .navbar.active {
-    height: 100vh;
+    height: 60vh;
     padding-top: 80px;
     padding-bottom: 40px;
     display: flex;
